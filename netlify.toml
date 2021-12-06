@@ -1,0 +1,12 @@
+[build]
+base = "/"
+publish = "build/"
+command = "yarn build"
+
+[context.deploy-preview]
+publish = "build/"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
