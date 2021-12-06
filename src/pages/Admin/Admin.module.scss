@@ -1,0 +1,59 @@
+.container {
+	min-height: 100%;
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	padding: 1rem 2rem;
+
+	> h1 {
+		margin-bottom: 1rem;
+		font-size: 2.5rem;
+		color: white;
+		display: inline-flex;
+		align-items: center;
+
+		.backIcon {
+			margin-right: 0.5rem;
+			cursor: pointer;
+			color: white;
+
+			display: inline-flex;
+			align-items: center;
+		}
+	}
+
+	> section {
+		border: 1px solid rgb(85, 84, 84);
+		padding: 1rem 1.5rem;
+		position: relative;
+		margin: 2rem 0;
+
+		> h2 {
+			font-size: 1.3rem;
+			color: white;
+			position: absolute;
+			top: 0;
+			transform: translateY(-50%);
+		}
+
+		button {
+			margin-top: 0.5rem;
+			padding: 0.4rem 1rem;
+
+			background-color: cadetblue;
+			border: 1px solid black;
+			border-radius: 0.2rem;
+			font-size: 1rem;
+			color: white;
+			font-weight: 600;
+			cursor: pointer;
+
+			&:active {
+				transform: scale(0.9);
+			}
+		}
+	}
+}
