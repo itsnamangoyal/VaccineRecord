@@ -70,10 +70,11 @@ const Search: FC = () => {
 								)}
 							</td>
 							<td>
-								{record.dose1_timestamp &&
-									new Date(record.dose1_timestamp).toLocaleString(undefined, {
-										hour12: true,
-									})}
+								{record.dose1_timestamp
+									? new Date(record.dose1_timestamp).toLocaleString(undefined, {
+											hour12: true,
+									  })
+									: "N/A"}
 							</td>
 						</tr>
 						<tr>
