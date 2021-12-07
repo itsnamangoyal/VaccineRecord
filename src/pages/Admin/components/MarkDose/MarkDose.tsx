@@ -30,7 +30,7 @@ const MarkDose: FC = () => {
 								<option value={1}>1</option>
 								<option value={2}>2</option>
 							</FormSelect>
-							<button type="submit">Register</button>
+							<button type="submit">Mark</button>
 						</form>
 					)
 				}}
