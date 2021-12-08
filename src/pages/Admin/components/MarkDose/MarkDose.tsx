@@ -16,7 +16,7 @@ const MarkDose: FC = () => {
 
 	return (
 		<section>
-			<h2>Marke Dose</h2>
+			<h2>Mark Dose</h2>
 			<Formik
 				innerRef={formRef}
 				initialValues={{ adhaar: "", dose: 1 }}
